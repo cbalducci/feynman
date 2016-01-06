@@ -1,6 +1,6 @@
 # Feynman
 
-TODO: Write a gem description
+A simple HTTP proxy written in ruby capable of on-demand back-end summoning
 
 ## Installation
 

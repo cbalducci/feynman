@@ -8,9 +8,11 @@ Gem::Specification.new do |spec|
   spec.version       = Feynman::VERSION
   spec.authors       = ["Cristiano Balducci"]
   spec.email         = ["cristiano.balducci@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{A simple HTTP proxy}
+  spec.description   = %q{Feynman is a simple HTTP proxy capable of JIT
+  summoning of back-end containers. The concept has been loosely based on JITSU
+  https://github.com/mirage/jitsu}
+  spec.homepage      = "https://github.com/cbalducci/feynman"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
