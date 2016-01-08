@@ -1,0 +1,9 @@
+local:
+  port: 4565
+target:
+  host: localhost
+  port: 4567
+docker:
+  host: localhost
+  port: 2376
+  ssl: true
